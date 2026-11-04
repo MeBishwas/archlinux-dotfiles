@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if [[ "$TERM" == "xterm-kitty" ]]; then
+    fastfetch --show-errors \
+  --logo "$HOME/Pictures/biswas.png" \
+  --logo-type kitty-icat \
+  --logo-width 50 \
+  --logo-height 100
+    #printf '\n'
+    #fastfetch --logo none
+#else
+    #fastfetch
+fi
