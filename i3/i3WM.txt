@@ -1,0 +1,1 @@
+It is an i3 window manager config file 
